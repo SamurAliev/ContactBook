@@ -64,7 +64,7 @@ class Contact extends Model
 
     }
 
-    function checkValues($request)
+    static function checkValues($request)
     {
         $numbers = array_values($request->get('number'));
         $emails = array_values($request->get('email'));

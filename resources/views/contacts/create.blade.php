@@ -2,6 +2,12 @@
 
 @section('content')
 
+    @if (session('status'))
+        <div class="alert alert-danger w-100">
+            {{ session('status') }}
+        </div>
+    @endif
+
     <div class="col-5 mt-5 ml-auto mr-auto">
         <form method="POST" action="{{route('contacts.store')}}">
             @csrf

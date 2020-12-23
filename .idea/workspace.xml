@@ -20,6 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2f231988-2906-4d57-9ead-3b1859ec835f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/ContactBook.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/ContactBook.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ContactController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Models/Contact.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/Contact.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../impact/app/Http/Controllers/Admin/ServicesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../impact/app/Http/Controllers/Admin/ServicesController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../impact/resources/lang/en/validation.php" beforeDir="false" afterPath="$PROJECT_DIR$/../impact/resources/lang/en/validation.php" afterDir="false" />
     </list>
@@ -33,7 +38,7 @@
     <execution />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../impact" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -144,6 +149,7 @@
       <path value="$PROJECT_DIR$/vendor/phpoption/phpoption" />
       <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
       <path value="$PROJECT_DIR$/vendor/kyslik/column-sortable" />
+      <path value="$PROJECT_DIR$/vendor/laravel/scout" />
     </include_path>
   </component>
   <component name="ProjectId" id="1ltaK8tAoyd6LiCs4vordey2OIA" />
@@ -182,6 +188,7 @@
       <workItem from="1608540669803" duration="23306000" />
       <workItem from="1608639297320" duration="479000" />
       <workItem from="1608727328425" duration="5809000" />
+      <workItem from="1608735843795" duration="335000" />
     </task>
     <servers />
   </component>

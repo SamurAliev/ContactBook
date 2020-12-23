@@ -27,6 +27,10 @@ class ContactController extends Controller
 
     public function store(Request $request)
     {
+        $compare = Contact::checkValues($request);
+        if (!$compare) {
+            return back()->with('status', 'The values must be different');
+        }
         $this->validate($request, [
             'name' => 'required',
             'number.*' => 'required|numeric|unique:numbers,number',
@@ -57,7 +61,7 @@ class ContactController extends Controller
     public function update(Request $request, Contact $contact)
     {
         $id = $contact->id;
-        $compare = $contact->checkValues($request);
+        $compare = Contact::checkValues($request);
         if (!$compare) {
             return back()->with('status', 'The values must be different');
         }
